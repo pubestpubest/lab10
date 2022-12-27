@@ -2,6 +2,16 @@
 using namespace std;
 
 //Write the function printO() here
+void printO(int row,int col){
+	if(!(col<1||row<1))
+		for (int i = 0; i < row; i++){
+			for (int j = 0; j < col; j++)
+				cout<<"O";
+			cout<<endl;
+		}
+	else	cout<<"Invalid input";
+}
+
 
 int main(){
 	
